@@ -2,7 +2,10 @@
 
 :root {
     --blue: #0065fc;
+    --darkgrey: #d9d9d9;
     --lightgrey: #f2f2f2;
+    --lightblue: #deebff;
+    --lighterblue: #f3f8ff;
 }
 
 /*WILDCARD*/
@@ -78,8 +81,7 @@ nav a:hover {
 .wrapper {
     padding: 0 2em;
 }
-
-.wrapper h1, 
+ 
 .wrapper p {
   padding: 0.8em;
 }
@@ -88,10 +90,12 @@ nav a:hover {
 .search-form {
     display: flex;
     align-items: center;
+    font-size: 1.2em;
 }
 
-.search-form * {
+.search-form > * {
   padding: 1em 1.5em;
+  font-size: 1.2em;
 }
 
 .search-form i {
@@ -102,18 +106,168 @@ nav a:hover {
 .search-form input {
   flex-basis: 16em;
   border: 1px solid lightgrey;
-}
-
-.search-form input::placeholder {   
-   font-seize; 1.2em;
+  overflow: auto;
 }
 
 .search-form button {
   background-color: #0065FC;
   color: #f2f2f2;
-  font-size: 1.2em;
   font-weight: bold;
   border-radius: 0 1em 1em 0;
   border: none;
   cursor: pointer;
+  opacity: 0.9;
+  transition: transform 200ms;
+}
+
+.search-form button:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+.fas.fa-search {
+    display: none;
+}
+
+@media (max-width: 800px) {
+  .search-form .search-text{
+    display: none;
+  }
+
+   .fas.fa-search {
+   display: inline;
+       background-color: inherit;
+   }
+}
+
+/* FILTERS */
+.filter-list {
+  display: flex;
+  align-items: center;
+  gap: 1em 2em;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.filter-list h1 {
+  margin-bottom: 0;
+}
+
+.filter {
+  border: 2px solid lightgrey;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  transition: all 100ms;
+}
+
+.filter .fas {
+  color: #0065FC;
+  background-color:#deebff;
+  border-radius: 50%;
+  margin: -2px;
+  width: 3em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.filter {
+   border: 2px solid lightgrey;
+   border-radius: 2rem;
+   display: flex;
+   align-items: center;
+   transition: all 100ms;
+}
+
+.filter span {
+   font-weight: bold;
+   padding: 0em;
+}
+
+.filter:hover {
+  background-color: var(--lighterblue);
+  transform: scale(1.02);
+}
+
+/* RESULTS MESSAGE */
+.results-message {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.results-message .fas {
+  color: #0065fc;
+  width: 2em;
+  height: 2em;
+  border: 1px solid darkgrey;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* APARTMENTS LIST */
+.apartments-list {
+display: flex;
+gap: 1em;
+}
+
+.apartments-list > div {
+  border: 1px solid red;
+  background-color: #d9d9d9;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.apartments-list .city {
+  flex-basis: 66%;
+}
+
+.apartments-list .city a {
+  font-weight: bold;
+}
+.apartments-list .popular {
+  flex-basis: 33%;
+}
+
+@media (max-width: 800px) {
+.apartments-list {
+  flex-direction: column;
+}
+.popular {
+  order: -1;
+}
+}
+
+/* LIST APARTMENTS CITY */
+.city-apartments-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+.city-apartments-list div {
+  border: 1px solid blue;
+  flex-basis: calc(33%-1em);
+}
+
+/* POPULAR */
+.apartments-list .popular {
+  display: flex;
+  flex-direction: column;
+gap: 1em;
+}
+
+.apartments-list .popular div {
+border: 1px solid blue;
+}
+
+@media (max-width: 800px) {
+  .apartments-list .popular {
+  flex-direction: row;
+  }
 }
