@@ -20,6 +20,7 @@ a {
     text-decoration: none;
 }
 
+/*NAVBAR */
 nav {
     display: flex;
     align-items: center;
@@ -71,4 +72,48 @@ nav a:hover {
    border-bottom-color:  blue;
    border-top-color: transparent;
 }
+}
+
+/* BODY */
+.wrapper {
+    padding: 0 2em;
+}
+
+.wrapper h1, 
+.wrapper p {
+  padding: 0.8em;
+}
+
+/* SEARCH-FORM */
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form * {
+  padding: 1em 1.5em;
+}
+
+.search-form i {
+    background-color: lightgrey;
+    border-radius:  1em 0 0 1em;
+}
+
+.search-form input {
+  flex-basis: 16em;
+  border: 1px solid lightgrey;
+}
+
+.search-form input::placeholder {   
+   font-seize; 1.2em;
+}
+
+.search-form button {
+  background-color: #0065FC;
+  color: #f2f2f2;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 0 1em 1em 0;
+  border: none;
+  cursor: pointer;
 }
