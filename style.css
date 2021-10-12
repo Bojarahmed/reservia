@@ -9,15 +9,9 @@
   src: url("static/Raleway-Thin.ttf");
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+h1,h2,h3,h4,h5,h6,
 a {
   font-family: "Raleway";
-  font-weight: bold;
 }
 
 p {
@@ -167,9 +161,9 @@ input {
 }
 
 .barreFiltre:hover {
-  background: #0065fc;
-  color: #fff;
-  transition: 0.4s ease-in-out;
+  background: #f3f8ff;
+  color: black;
+  transform: scale(1.015);
   cursor: pointer;
 }
 
@@ -191,12 +185,12 @@ input {
 .imagefiltre {
   padding: 15px 15px;
   border-radius: 50%;
-  background-color: #d9d9d9;
+  background-color: #DEEBFF;
   cursor: pointer;
 }
 
 .fas {
-  color: #0065fc;
+  color: blue;
 }
 
 .fa-map-marker-alt {
@@ -207,6 +201,8 @@ input {
 
 .info {
   display: flex;
+  margin: 1rem 0 2rem 0;
+  align-items: center;
 }
 
 .fa-info {
@@ -283,7 +279,6 @@ input {
 
 .hotel p {
   margin: 5px 10px;
-  font-weight: 100;
 }
 
 .hotel h3 {
@@ -379,8 +374,13 @@ input {
 }
 
 .etoilespop {
+  margin: 50px;
+}
+
+.etoilespop2 {
   margin: 30px;
 }
+
 /* PARAMETRES DE LA SECTION ACTIVITE */
 
 #Activite {
@@ -478,7 +478,8 @@ footer {
 }
 
 .interieurblockFooter {
-  width: 40%;
+  width: 100%;
+  
 }
 
 .footerTitre {
