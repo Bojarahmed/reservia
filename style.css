@@ -1,4 +1,4 @@
-
+/*
 @font-face {
   font-family: "Raleway";
   src: url("static/Raleway-Regular.ttf");
@@ -8,14 +8,16 @@
   font-family: "Raleway-thin";
   src: url("static/Raleway-Thin.ttf");
 }
+*/
 
 h1,h2,h3,h4,h5,h6,
 a {
-  font-family: "Raleway";
+  font-family:  'Raleway inherit','arial';
+  color:black;;
 }
 
 p {
-  font-family: "Raleway";
+  font-family: "Raleway",'arial';
 }
 
 /* PARAMETRES DE LA PAGE */
@@ -42,6 +44,7 @@ p {
 }
 .Logohaut {
   cursor: pointer;
+  height: 2.813em;
 }
 
 header ul {
@@ -57,6 +60,8 @@ header ul li a:hover {
   border-top: 2px solid #0065fc;
   padding-top: 21px;
   color: #0065fc;
+  padding-left: 15px;
+padding-right: 15px;
 }
 
 header ul li {
@@ -71,6 +76,8 @@ a {
 .inscrire a {
   color: #0065fc;
   margin-right: 0%;
+  padding-left: 15px;
+padding-right: 15px;
 }
 
 .inscrire a:hover {
@@ -101,7 +108,7 @@ button {
   border: none;
   padding: 15px 15px;
   border-radius: 0px 10px 10px 0px;
-  font-weight: bold;
+  font-weight: "Raleway bold",'Arial';
   font-family: "Raleway", "Sans serif";
   font-size: 1em;
   cursor: pointer;
@@ -109,7 +116,7 @@ button {
 }
 
 .iconemap {
-  font-size: 25px;
+  font-size: 26px;
   background-color: #f2f2f2;
   border-radius: 1rem 0 0 1rem;
   padding: 10px 10px;
@@ -120,7 +127,7 @@ button {
 input {
   padding: 10px;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: "Raleway bold",'Arial';
   font-family: "Raleway", "Sans serif";
   border-right: none;
   border-left: none;
@@ -153,7 +160,7 @@ input {
 }
 
 .titre {
-  font-family: "Raleway", "Sans serif";
+  font-family: "Raleway bold",'arial';
   font-weight: bold;
   padding-right: 1.5em;
   padding-left: 0.5em;
@@ -306,6 +313,7 @@ input {
   width: 32%;
   padding: 20px;
   display: flex;
+  flex-direction: column;
 }
 
 .hebergementspop {
@@ -314,6 +322,7 @@ input {
 
 .hotelpop {
   display: flex;
+  transform: scale(1.05);
   width: 100%;
   background: white;
   border-radius: 20px;
@@ -374,7 +383,7 @@ input {
 }
 
 .etoilespop {
-  margin: 50px;
+  margin: 31px;
 }
 
 .etoilespop2 {
@@ -478,7 +487,7 @@ footer {
 }
 
 .interieurblockFooter {
-  width: 100%;
+  width: 40%;
   
 }
 
@@ -493,6 +502,8 @@ footer {
   display: block;
   margin: 15px 0;
   font-weight: 500;
+  font-family: inherit;
+
 }
 
 /*RESPONSIVE MOBILES*/
