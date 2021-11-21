@@ -1,145 +1,143 @@
-h1,h2,h3,h4,h5,h6,a {
-  font-family: 'Raleway bold','arial';
-  color:black;
-}
-
-p {
-  font-family: "Raleway",'arial';
-  margin-top: -0.8%;
-  margin-bottom: 2%;
-}
-
-/* PARAMETRES DE LA PAGE */
-
-#blocpage {
-  margin: auto;
-  width: 98%;
-}
-
-/* PARAMETRES DU HEADER */
-
-/* le conteneur */
-
-.containerheader {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.headernav {
-  display: flex;
-  margin-right: 3%;
-  margin-top: -12px;
-}
-.Logohaut {
-  cursor: pointer;
-  height: 2.813em;
-}
-
-header ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: -21px;
-  margin-left: auto;
-  color: #252e3b;
-}
-
-header ul li a:hover {
-  border-top: 3px solid #0065fc;
-  padding-top: 22px;
-  color: #0065fc;
-  margin-right: -0.9em;
-}
-
-header ul li {
-  margin-left: 42px;
-  padding: 50px 48px 40px 8px;
+  h1,h2,h3,h4,h5,h6,a {
+   font-family: 'Raleway bold','arial';
+   color:black;
   }
-
-a {
-  text-decoration: none;
-  color: black;
-  margin-right: -15px;
-  padding-left: 0px;
-  padding-right: 15px;
-  margin-bottom: -24px;
-}
-
-
-.inscrire a {
-  color: #0065fc;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.inscrire a:hover {
-  border-top: 2px solid #0065fc;
-  padding-top: 41px;
-}
-
-.inscrire {
-  padding-left: 28px;
-  margin-top: 6%;
-}
-
-/* le texte d'accroche */
-
-.subtext {
-margin-top: 2.2%;
-margin-bottom: -1%;
-}
-
-/* le formulaire de recherche */
-
-.logosearch {
-  display: inline-flex;
-  margin-top: 18px;
-  align-items: center;
-}
-
-button {
-  background-color: #0065fc;
-  border: none;
-  padding: 15px 15px;
-  border-radius: 0px 10px 10px 0px;
-  font-weight: "Raleway bold",'Arial';
-  font-family: "Raleway", "Sans serif";
-  font-size: 1em;
-  cursor: pointer;
-  margin: 0 -50px;
-}
-
-.iconemap {
-  font-size: medium;
-  background-color: #f2f2f2;
-  border-radius: 1rem 0 0 1rem;
-  padding: 17px 10px;
-  width: 30px;
-  text-align: center;
-  margin-top: -0.7em;
-  margin-right: -0.2em;
-}
-
-input {
-  border-radius: 5px;
-  font-weight: "Raleway bold",'Arial';
-  font-family: "Raleway", "Sans serif";
-  border-right: none;
-  border-left: none;
-  border-top: #f2f2f2 1px solid;
-  border-bottom: #f2f2f2 1px solid;
-  padding: 0 2.5em;
-  width: 62%;
-  height: 2em;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-left: 2px;
-  padding-left: 1.2em;
-  padding-right: 2.8em;
-  padding-bottom: 0.5em;
-}
+  
+  p {
+    font-family: "Raleway",'arial';
+    margin-top: -0.8%;
+    margin-bottom: 2%;
+  }
+  
+  /* PARAMETRES DE LA PAGE */
+  
+  #blocpage {
+    margin: auto;
+    width: 98%;
+  }
+  
+  /* PARAMETRES DU HEADER */
+  
+  /* le conteneur */
+  
+  .containerheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .headernav {
+    display: flex;
+    margin-right: 3%;
+    margin-top: -12px;
+  }
+  
+  .Logohaut {
+    cursor: pointer;
+    height: 2.813em;
+  }
+  
+  header ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: -21px;
+    margin-left: auto;
+    color: #252e3b;
+  }
+  header ul li a:hover {
+    border-top: 3px solid #0065fc;
+    padding-top: 22px;
+    color: #0065fc;
+    margin-right: -0.9em;
+  }
+  
+  header ul li {
+    margin-left: 42px;
+    padding: 50px 48px 40px 8px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    margin-right: -15px;
+    padding-left: 0px;
+    padding-right: 15px;
+    margin-bottom: -24px;
+  }
+  
+  .inscrire a {
+    color: #0065fc;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .inscrire a:hover {
+    border-top: 2px solid #0065fc;
+    padding-top: 41px;
+  }
+  
+  .inscrire {
+    padding-left: 28px;
+    margin-top: 6%;
+  }
+  
+  /* le texte d'accroche */
+  
+  .subtext {
+    margin-top: 2.2%;
+    margin-bottom: -1%;
+  }
+  
+  /* le formulaire de recherche */
+  
+  .logosearch {
+    display: inline-flex;
+    margin-top: 18px;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #0065fc;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 0px 10px 10px 0px;
+    
+    font-family: "Raleway", "Sans serif";
+    font-size: 1em;
+    cursor: pointer;    
+    margin: 0 -50px;
+  }
+  
+  .iconemap {
+    font-size: medium;
+    background-color: #f2f2f2;
+    border-radius: 1rem 0 0 1rem;
+    padding: 17px 10px;
+    width: 30px;
+    text-align: center;
+    margin-top: -0.7em;
+    margin-right: -0.2em;
+  }
+  
+  input {
+    border-radius: 5px;
+    font-family: "Raleway", "Sans serif";
+    border-right: none;
+    border-left: none;
+    border-top: #f2f2f2 1px solid;
+    border-bottom: #f2f2f2 1px solid;
+    padding: 0 2.5em;
+    width: 62%;
+    height: 2em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 2px;
+    padding-left: 1.2em;
+    padding-right: 2.8em;
+    padding-bottom: 0.5em;
+  }
 
 .boutonderecherche {
   border-radius: 0px 18px 18px 0;
@@ -516,7 +514,6 @@ footer {
   margin-left: -2%;
   margin-right: -2%;
   padding-left: 2%;
-  padding-right: -2%;
 }
 
 .blockFooter {
