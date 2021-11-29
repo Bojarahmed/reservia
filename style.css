@@ -1,6 +1,6 @@
   h1,h2,h3,h4,h5,h6,a {
-   font-family:'Raleway bold','arial';
-   color:black;
+    
+    color:black;
   }
   
   p {
@@ -693,10 +693,11 @@ padding-bottom: 2%;
 
   #pluspopulaires {
     width: 100%;
-    margin: 0;
+    margin: -7px;
     padding: 2%;
     order: 1;
     display: grid;
+    overflow: hidden;
   }
 
   /* PARAMETRES ACTIVITES */
