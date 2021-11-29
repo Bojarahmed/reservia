@@ -14,6 +14,7 @@
   #blocpage {
     margin: auto;
     width: 98%;
+    overflow: hidden;
   }
   
   /* PARAMETRES DU HEADER */
