@@ -1,5 +1,5 @@
   h1,h2,h3,h4,h5,h6,a {
-   font-family: 'Raleway bold','arial';
+   font-family:'Raleway bold','arial';
    color:black;
   }
   
@@ -130,7 +130,7 @@
     border-bottom: #f2f2f2 1px solid;
     padding: 0 2.5em;
     width: 70%;
-    height: 2em;
+    height: 2.2em;
     font-size: 1.2rem;
     font-weight: bold;
     margin-left: 2px;
@@ -141,7 +141,7 @@
 
 .boutonderecherche {
   border-radius: 0px 18px 18px 0;
-  padding: 21px 0 14px;
+  padding: 20px 0 16px;
   background-color: #0065fc;
   color: white;
   position: relative;
@@ -379,7 +379,7 @@
 .fa-chart-line:before {
   content: "\f201";
   position: absolute;
-  right: 43px;
+  right: 3%;
   margin-top: -17px;
   color: black;
 }
@@ -465,22 +465,21 @@
 }
 
 .activite2img {
-  height: 200px;
+  height: 10.3em;
 }
 
 .activite3img {
-  height: 8em;
+  height: 10.3em;
   margin-top: -3.2em;
 }
 
 .activite5img {
-  height: 156px;
+  height: 10.3em;
 }
 
 .activite6img {
-  height: 189.433px;
-  margin-top: -7px;
-  margin-bottom: -4%;
+  height: 10.3em;
+  margin-bottom: -3px;
 }
 
 .h3 {
@@ -643,7 +642,7 @@ padding-bottom: 2%;
   }
 
   .barreFiltre {
-    width: 50%;
+    width: 10em;
     margin-bottom: 10px;
   }
 
@@ -695,7 +694,7 @@ padding-bottom: 2%;
   #pluspopulaires {
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 2%;
     order: 1;
     display: grid;
   }
